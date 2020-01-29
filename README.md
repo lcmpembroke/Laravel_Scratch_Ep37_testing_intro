@@ -24,7 +24,7 @@ This code follows episode 37 of Laravel 5.7 from Scratch. It shows briefly the t
 * cd Laravel_Scratch_Ep37_testing_intro
 * composer install
 * cp .env.example .env
-* ensure database connections setup in .env file
+* database for testing uses in memory sqlite so no real connections need setup in .env file
 * php artisan key:generate
 * php artisan serve
 
